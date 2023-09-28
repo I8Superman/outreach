@@ -1,14 +1,14 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <div class="text">
+        Hella there <span>you crazy world!</span>
+      </div>
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
@@ -20,7 +20,19 @@ import HelloWorld from './components/HelloWorld.vue'
   <RouterView />
 </template>
 
-<style scoped>
+<style lang="scss">
+$bgColor: red;
+
+.text {
+  font-size: larger;
+  background-color: $bgColor;
+
+  span {
+    color: blue;
+    font-weight: 800;
+  }
+}
+
 header {
   line-height: 1.5;
   max-height: 100vh;
