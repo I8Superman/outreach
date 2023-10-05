@@ -14,8 +14,4 @@
 
 </script>
 
-<style lang="scss" scoped>
-.special {
-    background-color: $light-blue;
-}
-</style>
+<style lang="scss" scoped></style>

@@ -5,14 +5,14 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // Lets us use a css/scss stylesheet globally, accessing its 
-  // variables without importing it in every single component.
-  // The '@use ... as v' lets us access the variables by writing v.$variable-name
-  // instead of global.$variable-name. Makes it easy to see it's a variable!
+  // Set variables.scss to be accessible globally here.
+  // This can ONLY include SCSS code that doens't get rendered (variables, mixins, functions)!
+  // If we put normal (S)CSS rules in the file made accessible here, it will be repeated
+  // in the compiled stylesheet for EVERY component, bloating the file.
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `@import "@/assets/styles/global.scss";`,
+        additionalData: `@import "@/assets/styles/variables.scss";`,
       },
     },
   },

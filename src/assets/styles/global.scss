@@ -1,7 +1,26 @@
-@forward 'partials';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,600;1,8..144,400;1,8..144,600&family=Roboto:wght@700&family=Tangerine:wght@700&display=swap');
 
 // This file collects all the styles and variables from the partials folder,
 // and lets us use them as 1 stylesheet (set for global use in the vite.config.js file).
 
 // Should global styles be defined here? Or in partials? Depends on project size I guess...
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+.bad-class {
+    color: red;
+}
+
+.btn {
+  background-color: green;
+}
+
+.special {
+    background-color: $light-blue;
+}

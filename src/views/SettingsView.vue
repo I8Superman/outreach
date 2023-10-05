@@ -1,7 +1,7 @@
 <template>
     <div>Hello
         <button class="btn">normal</button>
-        <button class="special">scoped</button>
+        <button class="very-special">scoped</button>
     </div>
 </template>
 
@@ -15,7 +15,7 @@
 </script>
 
 <style lang="scss" scoped>
-.special {
-    background-color: $light-blue;
+.very-special {
+    background-color: lightsalmon;
 }
 </style>
