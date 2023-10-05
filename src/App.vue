@@ -14,6 +14,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/settings">Settings</RouterLink>
+        <RouterLink to="/contacts">Contacts</RouterLink>
       </nav>
     </div>
   </header>
