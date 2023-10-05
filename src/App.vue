@@ -20,7 +20,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <RouterView />
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 $bgColor: red;
 
 .text {
