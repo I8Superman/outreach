@@ -1,0 +1,7 @@
+@forward 'partials';
+
+// This file collects all the styles and variables from the partials folder,
+// and lets us use them as 1 stylesheet (set for global use in the vite.config.js file).
+
+// Should global styles be defined here? Or in partials? Depends on project size I guess...
+
