@@ -1,26 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,600;1,8..144,400;1,8..144,600&family=Roboto:wght@700&family=Tangerine:wght@700&display=swap');
 
-// This file collects all the styles and variables from the partials folder,
-// and lets us use them as 1 stylesheet (set for global use in the vite.config.js file).
+// All the CSS that is NOT variables. Depending on how long this gets, maybe it should be broken down into partials. Probably not necessary for this small project.
 
-// Should global styles be defined here? Or in partials? Depends on project size I guess...
+// CSS RESET AND BOILERPLATE:
+
+html {
+    box-sizing: border-box;
+    font-size: 100; // Sets the font to the default browser font size
+}
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-  font-weight: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
 }
 
-.bad-class {
-    color: red;
+body {
+    font-family: Roboto, sans-serif;
+    background: $bg-gradient;
 }
 
-.btn {
-  background-color: green;
+// #app {
+//     width: 100vw;
+//     height: 100vh;
+//     position: relative;
+//     padding: $s16;
+// }
+
+// .view {
+//     width: 100%;
+//     height: 100%;
+//     border: 2px red solid;
+// }
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    font-weight: 700;
+    line-height: 1.1;
 }
 
-.special {
-    background-color: $light-blue;
+p {
+    margin-top: 0;
+}
+
+a,
+a:active,
+a:visited {
+    text-decoration: none;
 }

@@ -1,8 +1,5 @@
 <template>
-    <div>Hello
-        <button class="btn">normal</button>
-        <button class="special">scoped</button>
-    </div>
+    <h1>CONTACTS</h1>
 </template>
 
 <script setup>

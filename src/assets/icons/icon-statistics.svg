@@ -1,0 +1,16 @@
+<svg width="65" xmlns="http://www.w3.org/2000/svg" height="65" viewBox="-3 -3 65 65" style="-webkit-print-color-adjust:exact" fill="none">
+    <g class="feather feather-bar-chart-2" style="fill:#000">
+        <path fill="none" d="M44.25 49.167V24.583" style="fill:none" class="fills"/>
+        <g class="strokes">
+            <path stroke-linejoin="round" stroke-linecap="round" d="M44.25 49.167V24.583" style="fill:none;stroke-width:6;stroke:#f2f2f2;stroke-opacity:1" class="stroke-shape"/>
+        </g>
+        <path fill="none" d="M29.5 49.167V9.833" style="fill:none" class="fills"/>
+        <g class="strokes">
+            <path stroke-linejoin="round" stroke-linecap="round" d="M29.5 49.167V9.833" style="fill:none;stroke-width:6;stroke:#f2f2f2;stroke-opacity:1" class="stroke-shape"/>
+        </g>
+        <path fill="none" d="M14.75 49.167v-14.75" style="fill:none" class="fills"/>
+        <g class="strokes">
+            <path stroke-linejoin="round" stroke-linecap="round" d="M14.75 49.167v-14.75" style="fill:none;stroke-width:6;stroke:#f2f2f2;stroke-opacity:1" class="stroke-shape"/>
+        </g>
+    </g>
+</svg>
