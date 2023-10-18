@@ -7,6 +7,8 @@ import vue from '@vitejs/plugin-vue'
 
 import postcssNested from 'postcss-nested';
 import autoprefixer from 'autoprefixer';
+// Is this the correct way to import PostCss Simple Vars plugin?:
+import postcssSimpleVars from 'postcss-simple-vars';
 
 
 // https://vitejs.dev/config/
@@ -15,10 +17,13 @@ export default defineConfig({
     vue()
   ],
   css: {
+    // Is this the correct (inline) way to setup PostCSS plugins and add options?
+    // Should I use a postcss.config.js file instead?
     postcss: {
-      plugins: [ // How do I add options to the postcss plugins when registered inline like this?
-        postcssNested,
-        autoprefixer
+      plugins: [
+        postcssNested({ /* options */ }),
+        autoprefixer({ /* options */ }),
+        postcssSimpleVars
       ],
     },
   },
