@@ -1,0 +1,15 @@
+/* @forward '@/assets/styles/var-partials'; */
+
+/* Raw colors */
+:root {
+    --dark-blue: #000066;
+    --blue: #333399;
+    --light-blue: #60609a;
+    --violet: #993399;
+    --sick-green: #99cc33;
+    --white: #F2F2F2;
+    --black: #181819;
+    --dark-grey: #4A4343;
+    --grey: #706666;
+    --light-grey: #B0A0A0;
+}

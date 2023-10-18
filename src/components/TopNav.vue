@@ -25,7 +25,7 @@ import { RouterLink } from 'vue-router'
     width: 100%;
     left: 0;
     top: 0;
-    padding: $s16;
+    padding: 16px;
     display: flex;
     justify-content: space-between;
 

@@ -12,7 +12,7 @@ import BottomNav from './components/BottomNav.vue';
 
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .content {
   width: 100vw;
   height: 100vh;
