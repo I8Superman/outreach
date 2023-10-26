@@ -1,17 +1,53 @@
-/* @forward '@/assets/styles/var-partials'; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+/* 
+Available font sizes:
+Roboto Serif: 400 700 (regular + italic
+Roboto: 400 700 (only regular)
+Tangerine: 400 700 (only regular)
+*/
 
-/* Raw colors */
+/* RAW VARIABLES */
+
+/* Theme Colors */
 :root {
     --dark-blue: #000066;
     --blue: #333399;
     --light-blue: #60609a;
     --violet: #993399;
     --sick-green: #99cc33;
-    --white: #F2F2F2;
+    --white: #f1f1f1;
     --black: #181819;
-    --dark-grey: #4A4343;
+    --dark-grey: #635a5a;
     --grey: #706666;
-    --light-grey: #B0A0A0;
+    --light-grey: #cdced2;
 }
 
-$simple-var: #993399;
+/* Raw fonts */
+:root {
+    --roboto: Roboto, sans-serif;
+    --roboto-serif: Roboto Serif, sans-serif;
+    --tangerine: Tangerine, sans-serif;
+}
+
+/* Sizes and spacing */
+/* Trying to define a fixed set of spacing and sixe properties to uphold concistency */
+
+:root {
+    --xxs: 0.25rem;
+    --xs: 0.5rem;
+    --s: 0.75rem;
+    --m: 1rem;
+    --ml: 1.3rem;
+    --l: 1.5rem;
+    --xl: 2rem;
+    --xxl: 3rem;
+    --xxxl: 4rem;
+}
+
+/* COMBINED & MODIFIED VARIABLES */
+
+/* Typography styles */
+/* 
+font property, shorthand incl.: font-style font-variant font-weight font-size/line-height font-family 
+ex: italic small-caps bold 12px/30px Georgia, serif;
+*/

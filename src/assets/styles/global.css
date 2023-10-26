@@ -1,15 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,600;1,8..144,400;1,8..144,600&family=Roboto:wght@700&family=Tangerine:wght@700&display=swap');
-
 @import './variables.css';
 
 /* All the CSS that is NOT variables. Depending on how long this gets, maybe it should be broken down into partials. Probably not necessary for this small project. */
 
 /* CSS RESET AND BOILERPLATE: */
-
 html {
     box-sizing: border-box;
-    /* // Sets the font to the default browser font size */
-    text-size-adjust: 100%;
+    /* Sets the font to the default browser font size */
+    font-size: 100%;
 }
 
 *,
@@ -25,33 +22,41 @@ body {
     background: linear-gradient(0deg, var(--dark-blue) 15%, var(--violet) 100%);
 }
 
-/* #app {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    padding: $s16;
+h1 {
+    color: var(--black);
+    font: 700 var(--xxl)/var(--xxxl) var(--roboto);
 }
 
-.view {
-    width: 100%;
-    height: 100%;
-    border: 2px red solid;
-} */
+h2 {
+    color: var(--black);
+    font: 700 var(--xl)/var(--xxl) var(--roboto);
+}
 
-h1,
-h2,
 h3 {
-    margin-top: 0;
-    font-weight: 700;
-    line-height: 1.1;
+    color: var(--black);
+    font: 700 var(--xl)/var(--xxl) var(--roboto);
 }
 
 p {
-    margin-top: 0;
+    color: var(--black);
+    font: 400 var(--m)/var(--ml) var(--roboto-serif);
+
+    /* For standout bold text in span elems: */
+    .bold {
+        font-weight: 600;
+    }
 }
 
 a,
 a:active,
 a:visited {
     text-decoration: none;
+}
+
+.view {
+    background-color: var(--white);
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem 1rem 0rem 0rem;
+    padding: 5rem var(--s) var(--s) var(--s);
 }
