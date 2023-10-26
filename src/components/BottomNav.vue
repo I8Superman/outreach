@@ -22,13 +22,13 @@ import { RouterLink } from 'vue-router'
 
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .bottom-nav {
     position: absolute;
     width: 100%;
     left: 0;
     bottom: 0;
-    padding: $s16;
+    padding: 16px;
     display: flex;
     justify-content: space-between;
 
@@ -36,7 +36,7 @@ import { RouterLink } from 'vue-router'
         display: contents;
 
         img {
-            width: 15vw;
+            width: 12vw;
             max-width: 3rem;
         }
     }

@@ -1,22 +1,21 @@
 <template>
   <div class="content">
-    <TopNav />
+    <NavMenu />
     <RouterView />
-    <BottomNav />
+    <!-- <BottomNav /> -->
   </div>
 </template>
 
 <script setup>
-import TopNav from './components/TopNav.vue';
-import BottomNav from './components/BottomNav.vue';
+import NavMenu from './components/NavMenu.vue';
 
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .content {
   width: 100vw;
   height: 100vh;
   position: relative;
-  padding: 0.5rem;
+  padding: var(--xs) var(--xs) 0 var(--xs);
 }
 </style>

@@ -1,17 +1,16 @@
 
 <template>
-  <div class="call view">
+  <div class="call">
     <h1 class="app-name">Outreach</h1>
-    <button class="call__btn" :class="{ clicked: isActive }" @click="makeCall">
-      <img src="@/assets/icons/icon-phone-fill.svg" alt="">
+    <button class="call__btn" :class="isActive ? 'clicked' : 'ready'" @click="makeCall">
+      <img class="phone-icon" src="@/assets/icons/icon-phone-fill.svg">
     </button>
-    <h2 class="call__prompt">Make a call</h2>
+    <h2 class="prompt">Make a call</h2>
   </div>
 </template>
 
 <script setup>
 import { ref } from 'vue';
-
 
 const isActive = ref(false)
 
@@ -20,7 +19,7 @@ const makeCall = () => {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .call {
   width: 100%;
   height: 100%;
@@ -30,47 +29,46 @@ const makeCall = () => {
   align-items: center;
 
   .app-name {
-    color: $white;
-    font-family: $tangerine;
+    font-family: var(--tangerine);
+    color: var(--white);
     font-weight: 700;
     font-size: 6rem;
-    margin-bottom: 1rem;
+    margin-bottom: var(--xxl);
   }
 
-  &__btn {
+  .call__btn {
     width: 50vw;
     max-width: 15rem;
     height: 50vw;
     max-height: 15rem;
     border-radius: 50%;
-    background-color: $blue;
-    /* background: linear-gradient(0deg, $dark-blue 0%, #5555dd 100%); //box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.2); */
+    background: linear-gradient(0deg, var(--dark-blue) 0%, var(--light-blue) 100%);
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3), inset 0px 2px 3px $light-blue;
-
-    //box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0px 2px 5px 0px rgba(0, 0, 0, 0.6);
 
 
-
-    img {
+    .phone-icon {
       width: 50%;
     }
   }
 
-  &__prompt {
-    color: $white;
+  /* Different shadows for different call btn states: */
+  .ready {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3), inset 0px 2px 3px var(--light-blue);
+  }
+
+  .clicked {
+    box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.8) inset;
+  }
+
+  .prompt {
+    color: var(--white);
     font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
-}
-
-.clicked {
-  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.8) inset;
-
 }
 </style>
