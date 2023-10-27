@@ -2,6 +2,7 @@
     <div class="contact-list">
         <div class="contact" v-for="contact in sortedContacts" :key="contact.id">
             <p class="name">{{ contact.name }} {{ contact.serLetter }}</p>
+            <p class="phone">{{ contact.phone }}</p>
         </div>
     </div>
 </template>
@@ -22,7 +23,8 @@ const sortedContacts = computed(() => {
     // Check if search input is used and apply filtering:
     if (props.searchInput != '' && props.searchInput) {
         tempContacts = tempContacts.filter(contact => {
-            return contact.name.toLowerCase().includes(search) || contact.serLetter.toLowerCase().includes(search)
+            const fullName = `${contact.name.toLowerCase()} ${contact.serLetter.toLowerCase()}`
+            return contact.name.toLowerCase().includes(search) || contact.serLetter.toLowerCase().includes(search) || fullName.includes(search)
         })
     }
 
@@ -39,6 +41,12 @@ const sortedContacts = computed(() => {
     .contact {
         border-bottom: 1px var(--light-grey) solid;
         padding: 0.5rem 0rem 0.5rem 0rem;
+        display: flex;
+        justify-content: space-between;
+
+        .phone {
+            color: var(--grey);
+        }
     }
 }
 </style>
