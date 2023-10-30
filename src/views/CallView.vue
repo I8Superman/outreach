@@ -19,7 +19,7 @@ const makeCall = () => {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .call {
   width: 100%;
   height: 100%;
@@ -29,11 +29,11 @@ const makeCall = () => {
   align-items: center;
 
   .app-name {
-    font-family: var(--tangerine);
-    color: var(--white);
+    font-family: $tangerine;
+    color: $white;
     font-weight: 700;
     font-size: 6rem;
-    margin-bottom: var(--xxl);
+    margin-bottom: $xxl;
   }
 
   .call__btn {
@@ -42,7 +42,7 @@ const makeCall = () => {
     height: 50vw;
     max-height: 15rem;
     border-radius: 50%;
-    background: linear-gradient(0deg, var(--dark-blue) 0%, var(--light-blue) 100%);
+    background: linear-gradient(0deg, $dark-blue 0%, $light-blue 100%);
     border: none;
     display: flex;
     justify-content: center;
@@ -57,7 +57,7 @@ const makeCall = () => {
 
   /* Different shadows for different call btn states: */
   .ready {
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3), inset 0px 2px 3px var(--light-blue);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3), inset 0px 2px 3px $light-blue;
   }
 
   .clicked {
@@ -65,7 +65,7 @@ const makeCall = () => {
   }
 
   .prompt {
-    color: var(--white);
+    color: $white;
     font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 1rem;

@@ -168,14 +168,14 @@ const searchInput = ref('')
 
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .contacts {
     .search-field {
         border: none;
-        font-size: var(--m);
-        color: var(--dark-grey);
-        background-color: var(--light-grey);
-        background: url('@/assets/icons/icon-search.svg') no-repeat var(--light-grey);
+        font-size: $m;
+        color: $dark-grey;
+        background-color: $light-grey;
+        background: url('@/assets/icons/icon-search.svg') no-repeat $light-grey;
         background-position: 0.5rem center;
         background-size: 1.2rem;
         box-shadow: 2px 2px 3px 0px rgba(24, 24, 25, 0.31) inset;
@@ -192,7 +192,9 @@ const searchInput = ref('')
     .contacts-container {
         height: calc(100% - 8.5rem);
         overflow-y: scroll;
-
+        border-top: $light-grey 1px solid;
+        border-bottom: $light-grey 1px solid;
+        padding: $xs 0 $xs 0;
     }
 }
 </style>

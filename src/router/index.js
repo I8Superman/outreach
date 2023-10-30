@@ -4,6 +4,8 @@ import SettingsView from '@/views/SettingsView.vue'
 import ContactsView from '@/views/ContactsView.vue'
 import AddContactView from '@/views/AddContactView.vue'
 import StatisticsView from '@/views/StatisticsView.vue'
+import DetailsView from '@/views/DetailsView.vue'
+import EditContactView from '@/views/EditContactView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -24,9 +26,20 @@ const router = createRouter({
       component: ContactsView
     },
     {
+      path: '/contacts/:id',
+      name: 'details',
+      component: DetailsView,
+      props: true,
+    },
+    {
       path: '/add-contact',
       name: 'add-contact',
       component: AddContactView
+    },
+    {
+      path: '/edit-contact',
+      name: 'edit-contact',
+      component: EditContactView
     },
     {
       path: '/statistics',

@@ -2,7 +2,6 @@
   <div class="content">
     <NavMenu />
     <RouterView />
-    <!-- <BottomNav /> -->
   </div>
 </template>
 
@@ -11,11 +10,11 @@ import NavMenu from './components/NavMenu.vue';
 
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .content {
   width: 100vw;
   height: 100vh;
   position: relative;
-  padding: var(--xs) var(--xs) 0 var(--xs);
+  padding: $s $s 0 $s;
 }
 </style>

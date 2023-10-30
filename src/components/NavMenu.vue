@@ -1,23 +1,23 @@
 <template>
     <nav class="nav top-nav">
-        <RouterLink to="/about">
+        <RouterLink class="link" to="/about">
             <img class="icon" :class="{ dark: !isCallView }" src="@/assets/icons/icon-about.svg" alt="menu-icon-about">
         </RouterLink>
-        <RouterLink to="/settings">
+        <RouterLink class="link" to="/settings">
             <img class="icon" :class="{ dark: !isCallView }" src="@/assets/icons/icon-settings.svg"
                 alt="menu-icon-settings">
         </RouterLink>
     </nav>
     <nav class="nav bottom-nav">
-        <RouterLink to="/statistics">
+        <RouterLink class="link" to="/statistics">
             <img class="icon" :class="{ dark: !isCallView }" src="@/assets/icons/icon-statistics.svg"
                 alt="menu-icon-statistics">
         </RouterLink>
-        <RouterLink to="/contacts">
+        <RouterLink class="link" to="/contacts">
             <img class="icon" :class="{ dark: !isCallView }" src="@/assets/icons/icon-contacts.svg"
                 alt="menu-icon-constacts">
         </RouterLink>
-        <RouterLink to="/add-contact">
+        <RouterLink class="link" to="/add-contact">
             <img class="icon" :class="{ dark: !isCallView }" src="@/assets/icons/icon-add-contact.svg"
                 alt="menu-icon-add-contact">
         </RouterLink>
@@ -49,7 +49,8 @@ watch(() => route.path, (getPath) => { // Watch the route to change color on nav
     display: flex;
     justify-content: space-between;
 
-    a {
+    /* Using the semantic a tag stopped working with nesting all of a sudden!?? */
+    .link {
         display: contents;
         pointer-events: auto;
 

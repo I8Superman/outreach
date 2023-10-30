@@ -1,12 +1,1 @@
-<svg width="39" xmlns="http://www.w3.org/2000/svg" height="39" viewBox="-1.5 -1.5 39 39" style="-webkit-print-color-adjust:exact" fill="none">
-    <g class="feather feather-edit" style="fill:#000">
-        <path fill="none" d="M16.5 6H6a3 3 0 0 0-3 3v21a3 3 0 0 0 3 3h21a3 3 0 0 0 3-3V19.5" style="fill:none" class="fills"/>
-        <g class="strokes">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 6H6a3 3 0 0 0-3 3v21a3 3 0 0 0 3 3h21a3 3 0 0 0 3-3V19.5" style="fill:none;stroke-width:3;stroke:#000;stroke-opacity:1" class="stroke-shape"/>
-        </g>
-        <path fill="none" d="M27.75 3.75a3.181 3.181 0 1 1 4.5 4.5L18 22.5 12 24l1.5-6L27.75 3.75Z" style="fill:none" class="fills"/>
-        <g class="strokes">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M27.75 3.75a3.181 3.181 0 1 1 4.5 4.5L18 22.5 12 24l1.5-6L27.75 3.75Z" style="fill:none;stroke-width:3;stroke:#000;stroke-opacity:1" class="stroke-shape"/>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="35.613" height="35.613" fill="none" style="-webkit-print-color-adjust:exact"><defs><clipPath id="a" class="frame-clip-def frame-clip"><rect width="35.613" height="35.613" rx="0" ry="0"/></clipPath></defs><g clip-path="url(#a)"><g class="fills"><rect width="35.613" height="35.613" class="frame-background" rx="0" ry="0"/></g><g class="frame-children"><g class="feather feather-edit" style="fill:#000"><path fill="none" d="M16.137 5.516H5.166a3.125 3.125 0 0 0-3.134 3.116v21.814a3.125 3.125 0 0 0 3.134 3.117h21.942a3.126 3.126 0 0 0 3.135-3.117V19.539" class="fills" style="fill:none"/><g class="strokes"><path stroke-linecap="round" stroke-linejoin="round" d="M16.137 5.516H5.166a3.125 3.125 0 0 0-3.134 3.116v21.814a3.125 3.125 0 0 0 3.134 3.117h21.942a3.126 3.126 0 0 0 3.135-3.117V19.539" class="stroke-shape" style="fill:none;stroke-width:4;stroke:#000;stroke-opacity:1"/></g><path fill="none" d="M27.892 3.178a3.34 3.34 0 0 1 4.702 0 3.293 3.293 0 0 1 0 4.675L17.705 22.656l-6.27 1.558 1.568-6.233L27.892 3.178Z" class="fills" style="fill:none"/><g class="strokes"><path stroke-linecap="round" stroke-linejoin="round" d="M27.892 3.178a3.34 3.34 0 0 1 4.702 0 3.293 3.293 0 0 1 0 4.675L17.705 22.656l-6.27 1.558 1.568-6.233L27.892 3.178Zh0Z" class="stroke-shape" style="fill:none;stroke-width:4;stroke:#000;stroke-opacity:1"/></g></g></g></g></svg>

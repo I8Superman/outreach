@@ -17,10 +17,7 @@
     "autoprefixer": "^10.4.16",
     "eslint": "^8.49.0",
     "eslint-plugin-vue": "^9.17.0",
-    "postcss": "^8.4.31",
-    "postcss-mixins": "^9.0.4",
-    "postcss-nested": "^6.0.1",
-    "postcss-simple-vars": "^7.0.1",
+    "sass": "^1.69.5",
     "vite": "^4.4.9"
   },
   "browserslist": [

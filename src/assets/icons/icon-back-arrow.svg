@@ -1,12 +1,1 @@
-<svg width="51" xmlns="http://www.w3.org/2000/svg" height="51" viewBox="-2 -2 51 51" style="-webkit-print-color-adjust:exact" fill="none">
-    <g class="feather feather-arrow-left" style="fill:#000">
-        <path fill="none" d="M37.208 23.5H9.792" style="fill:none" class="fills"/>
-        <g class="strokes">
-            <path stroke-linejoin="round" stroke-linecap="round" d="M37.208 23.5H9.792" style="fill:none;stroke-width:4;stroke:#000;stroke-opacity:1" class="stroke-shape"/>
-        </g>
-        <path fill="none" d="M23.5 37.208 9.792 23.5 23.5 9.792" style="fill:none" class="fills"/>
-        <g class="strokes">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M23.5 37.208 9.792 23.5 23.5 9.792" style="fill:none;stroke-width:4;stroke:#000;stroke-opacity:1" class="stroke-shape"/>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="35.487" height="35.355" fill="none" style="-webkit-print-color-adjust:exact" viewBox="-2 -2 35.487 35.355"><g class="feather feather-arrow-left" style="fill:#000"><path fill="none" d="M31.487 15.678H0" class="fills" style="fill:none"/><g class="strokes"><path stroke-linecap="round" stroke-linejoin="round" d="M31.487 15.678H0" class="stroke-shape" style="fill:none;stroke-width:4;stroke:#000;stroke-opacity:1"/></g><path fill="none" d="M15.744 31.355 0 15.678 15.744 0" class="fills" style="fill:none"/><g class="strokes"><path stroke-linecap="round" stroke-linejoin="round" d="M15.744 31.355 0 15.678 15.744 0" class="stroke-shape" style="fill:none;stroke-width:4;stroke:#000;stroke-opacity:1"/></g></g></svg>
