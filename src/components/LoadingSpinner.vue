@@ -7,6 +7,7 @@
         <div class="dot"></div>
         <div class="dot"></div>
         <div class="dot"></div>
+
     </div>
 </template>
 
@@ -17,11 +18,10 @@
 <style lang="scss" scoped>
 // Ok, so this could have been done a lot smarter I think. Do it over with some fancy SASS calculations and functions sometime!
 .loading-spinner {
-
     $spinner-width: 60%;
     $dots: 7;
     $radius: 200%;
-    $anim-time: 2s;
+    $anim-time: 0.6s;
 
     width: $spinner-width;
     height: $spinner-width;
@@ -35,10 +35,6 @@
         }
 
         20% {
-            opacity: 1;
-        }
-
-        40% {
             opacity: 1;
         }
 
