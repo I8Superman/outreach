@@ -97,9 +97,11 @@ input[type=text] {
     font-family: $roboto-serif;
     font-size: $m;
 
+
     &:focus {
         outline: none;
         border-bottom: 2px $black solid;
+        font-size: $ml;
     }
 }
 

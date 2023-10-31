@@ -1,1 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="39.756" height="35.615" fill="none" style="-webkit-print-color-adjust:exact"><defs><clipPath id="a" class="frame-clip-def frame-clip"><rect width="39.756" height="35.615" rx="0" ry="0"/></clipPath></defs><g clip-path="url(#a)"><g class="fills"><rect width="39.756" height="35.615" class="frame-background" rx="0" ry="0"/></g><g class="frame-children"><g class="feather feather-check" style="fill:#000"><path fill="none" d="M37.459 2.1 13.117 33.41 2.053 19.178" class="fills" style="fill:none"/><g class="strokes"><path stroke-linecap="round" stroke-linejoin="round" d="M37.459 2.1 13.117 33.41 2.053 19.178" class="stroke-shape" style="fill:none;stroke-width:4;stroke:#000;stroke-opacity:1"/></g></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="39.756" height="35.615" fill="none"
+    style="-webkit-print-color-adjust:exact">
+    <defs>
+        <clipPath id="a" class="frame-clip-def frame-clip">
+            <rect width="39.756" height="35.615" rx="0" ry="0" />
+        </clipPath>
+    </defs>
+    <g clip-path="url(#a)">
+        <g class="fills">
+            <rect width="39.756" height="35.615" class="frame-background" rx="0" ry="0" />
+        </g>
+        <g class="frame-children">
+            <g class="feather feather-check" style="fill:#000">
+                <path fill="none" d="M37.459 2.1 13.117 33.41 2.053 19.178" class="fills"
+                    style="fill:none" />
+                <g class="strokes">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M37.459 2.1 13.117 33.41 2.053 19.178" class="stroke-shape"
+                        style="fill:none;stroke-width:4;stroke:#000;stroke-opacity:1" />
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
