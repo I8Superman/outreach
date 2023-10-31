@@ -3,13 +3,15 @@
   <div class="call">
     <h1 class="app-name">Outreach</h1>
     <button class="call__btn" :class="isActive ? 'clicked' : 'ready'" @click="makeCall">
-      <img class="phone-icon" src="@/assets/icons/icon-phone-fill.svg">
+      <img class="phone-icon" src="@/assets/icons/icon-phone-fill.svg" v-if="!isActive">
+      <LoadingSpinner v-if="isActive" />
     </button>
     <h2 class="prompt">Make a call</h2>
   </div>
 </template>
 
 <script setup>
+import LoadingSpinner from '../components/LoadingSpinner.vue';
 import { ref } from 'vue';
 
 const isActive = ref(false)

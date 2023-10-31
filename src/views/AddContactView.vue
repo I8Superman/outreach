@@ -90,6 +90,16 @@ const submitForm = () => {
         }
     }
 
+    // This is for adding multiple contacts nice-to-have functionality:
+    /* .add-contacts-container {
+        height: calc(100% - 8.5rem);
+        overflow-y: scroll;
+        border-top: $light-grey 1px solid;
+        border-bottom: $light-grey 1px solid;
+        padding: $xs 0 $xs 0;
+        width: 100%;
+    } */
+
     .add-contact-form {
         .contact-info {
             display: block;
