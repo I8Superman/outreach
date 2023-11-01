@@ -18,6 +18,7 @@ const isActive = ref(false)
 
 const makeCall = () => {
   isActive.value = !isActive.value;
+  window.location.href = 'tel:+4560803312'
 }
 </script>
 

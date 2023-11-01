@@ -38,11 +38,11 @@ const sortedContacts = computed(() => {
 })
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .contact-list {
 
     .contact {
-        border-bottom: 1px var(--light-grey) solid;
+        border-bottom: 1px $light-grey solid;
         padding: 0.5rem 0rem 0.5rem 0rem;
 
         .contact-link {
